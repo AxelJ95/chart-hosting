@@ -1,0 +1,17 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>??????? ??? ????????</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <meta charset="utf-8">
+</head>
+<body style="margin:0; padding:0;">
+    <div id="plotly-div" style="width:650px; height:1000px;"></div>
+    <script>
+        var data = [{"x":["??? ?? 30.5.24","??? ?? 6.6.24","??? ?? 13.6.24","??? ?? 20.6.24","??? ?? 27.6.24","??? ?? 4.7.24","??? ?? 11.7.24","??? ?? 18.7.24","??? ?? 25.7.24","??? ?? 1.8.24","??? ?? 8.8.24","??? ?? 15.8.24","??? ?? 22.8.24","??? ?? 29.8.24"],"y":[157.42857142857142,157.93406593406593,158.43956043956044,158.94505494505492,159.45054945054943,159.95604395604394,160.46153846153845,160.96703296703296,161.47252747252747,161.97802197802196,162.48351648351647,162.98901098901098,163.4945054945055,164],"type":"scatter","mode":"lines","name":"?????","line":{"color":"#1967C6","width":10,"dash":"solid"},"opacity":0.3,"hoverinfo":"skip"},{"x":["??? ?? 30.5.24","??? ?? 6.6.24","??? ?? 13.6.24","??? ?? 20.6.24","??? ?? 27.6.24","??? ?? 4.7.24","??? ?? 11.7.24","??? ?? 18.7.24","??? ?? 25.7.24","??? ?? 1.8.24","??? ?? 8.8.24","??? ?? 15.8.24","??? ?? 22.8.24","??? ?? 29.8.24"],"y":[181,121,200,136,167,154,152,166,139,176,156,181,121,200],"type":"scatter","mode":"lines+markers","name":"?????","line":{"color":"#1967C6","width":3},"marker":{"size":6,"color":["#1967C6","#cc0000","#38761d","#cc0000","#38761d","#cc0000","#cc0000","#38761d","#cc0000","#38761d","#cc0000","#38761d","#cc0000","#38761d"],"line":{"width":2,"color":["#1967C6","#cc0000","#38761d","#cc0000","#38761d","#cc0000","#cc0000","#38761d","#cc0000","#38761d","#cc0000","#38761d","#cc0000","#38761d"]}},"hovertemplate":"%{x}<br>%{y}<extra></extra>"},{"x":["??? ?? 30.5.24","??? ?? 6.6.24","??? ?? 13.6.24","??? ?? 20.6.24","??? ?? 27.6.24","??? ?? 4.7.24","??? ?? 11.7.24","??? ?? 18.7.24","??? ?? 25.7.24","??? ?? 1.8.24","??? ?? 8.8.24","??? ?? 15.8.24","??? ?? 22.8.24","??? ?? 29.8.24"],"y":[200,200,200,200,200,200,200,200,200,200,200,200,200,200],"type":"scatter","mode":"lines","name":"??? ?? ??????","line":{"color":"#cc0000","width":2,"dash":"dash"},"opacity":0.8,"hovertemplate":"%{x}<br>%{y}<extra></extra>"}];
+        var layout = {"title":{"text":"??????? ??? ????????","font":{"family":"Almoni-Regular","size":36,"color":"#1967C6"},"x":0.5},"xaxis":{"title":{"text":"???? ???? 29.8.24: ???","font":{"family":"Almoni-Regular","size":24,"color":"#1967C6"}},"showgrid":true,"gridwidth":0.1,"gridcolor":"#1967C6","tickfont":{"family":"Almoni-Regular","size":14,"color":"#1967C6"}},"yaxis":{"title":{"font":{"family":"Almoni-Regular","size":24,"color":"#1967C6"}},"range":[96,248],"showgrid":true,"gridwidth":0.1,"gridcolor":"#1967C6","tickfont":{"family":"Almoni-Regular","size":14,"color":"#1967C6"},"tickformat":".1f"},"legend":{"font":{"family":"Almoni-Regular","size":14,"color":"#1967C6"}},"width":650,"height":1000,"margin":{"l":40,"r":40,"t":60,"b":40},"plot_bgcolor":"rgba(0,0,0,0)","paper_bgcolor":"rgba(0,0,0,0)"};
+        Plotly.newPlot('plotly-div', data, layout, {responsive: true});
+    </script>
+</body>
+</html>
